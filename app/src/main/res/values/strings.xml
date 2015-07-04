@@ -4,5 +4,7 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="button_title">Click for a Top Ten Highest Mountains</string>
-    <string name="text_title"></string>
+    <string name="mountain_title"></string>
+    <string name="trivia_title"></string>
+
 </resources>

@@ -10,17 +10,30 @@
         android:layout_height="wrap_content"
         android:text="@string/button_title"
         android:id="@+id/buttonId"
+        android:layout_marginTop="46dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="50dp" />
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="@string/text_title"
+        android:text="@string/mountain_title"
         android:id="@+id/textViewId"
         android:layout_below="@+id/buttonId"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="69dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/trivia_title"
+        android:id="@+id/triviaTextViewId"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textViewId" />
 </RelativeLayout>
